@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css">
+
+  <title>iletisim | Simple-CSS</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Ana Sayfa</a></li>
+        <li><a href="hakkimizda.html">Hakkimizda</a></li>
+        <li><a href="urunler.html">Egitmenler</a></li>
+        <li><a href="Iletisim.html">Iletisim</a></li>
+      </ul>
+    </nav>
+  </header>
+ 
+  <form>
+    <p><strong>Uzmanlardan yardım almak için bizimle iletişime geçebilirsiniz.</strong></p>
+  
+    <p><select>
+      <option selected="selected" value="1">Seç</option>
+      <option value="2">Kadın</option>
+      <option value="3">Erkek</option>
+      <option value="4">Diğer</option>
+    </select></p>
+  
+    <p>
+    <label>Ad</label>
+    <input type="text" name="first_name">
+    </p>
+  
+    <p>
+    <label>Soyad</label>
+    <input type="text" name="surname">
+    </p>
+  
+    <p>
+    <label>Email</label>
+    <input type="email" name="email" required="">
+    </p>
+  
+    <p>
+    <label>Eğitmen Seç:</label>
+    <label><input checked="checked" name="type" type="radio" value="sales" /> Eda Nur Kabay</label> 
+    <label><input name="type" type="radio" value="support" /> Hakan Yalcinkaya</label> 
+    <label><input name="type" type="radio" value="billing" /> Elif Kaya</label>
+    <label><input name="type" type="radio" value="billing" /> Emre Yilmaz</label>
+    <label><input name="type" type="radio" value="billing" /> Ayşe Demir</label>
+    </p>
+  
+    <p>
+    <label>Mesaj Bırak</label>
+    <textarea rows="6"></textarea>
+    </p>
+  
+    <p>
+    <label>
+    <input type="checkbox" id="checkbox" value="terms">
+    I agree to the <a href="#">terms and conditions</a>
+    </label>
+    </p>
+  
+    <button>Gönder</button>
+    <button type="reset">Reset</button>
+  </form>
+  
+  
+</body>
+</html>
